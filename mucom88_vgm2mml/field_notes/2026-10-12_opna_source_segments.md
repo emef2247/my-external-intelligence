@@ -38,3 +38,11 @@ After OPNA-only consolidation, all 15 focused tests pass on Windows and WSL;
 nearby VGM tests have19/20 pass and OPM reader5/6, with the same pre-existing
 GD3 title-space and missing OPLL declaration failures. No private fixture
 checks or Git mutations are part of the validation workflow.
+
+## Smoke details retained during documentation organization (2026-10-15)
+
+Only missing measurements transferred from the former public source-check
+paragraph: the authored gates begin at samples0 and44100; the reader produced
+50 writes,67 State events and67 Segments. The initial rhythm-stop write stayed
+unmodeled evidence. Artifacts: outputs/mucomvgm_source_smoke_2026-10-12/.
+The existing two-gate/22050/88200 and edge observations above are not new runs.
