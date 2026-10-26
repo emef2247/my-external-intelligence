@@ -52,3 +52,14 @@ inputs, and mode0 for03. All5 MML pairs and all5 compiled MGS pairs byte-identic
 implementation or README changes. Source/MML rhythm evidence is preserved in
 fmpac_source_rhythm.json beside the expanded audit reports. This checks selected
 output compatibility and rhythm presence, not hardware or source-score accuracy.
+
+## Long PSG/SCC supplement: SALAMD01
+
+User requested SALAMD/SALAMD01.vgm because the sync-block examples are short.
+Added that single90-second input, same fixed mainab58c3e/implementation9da7011
+and settings. Both ordinary MML files are12373 bytes and exactly identical. Both
+MGS compiles succeed and MGS bytes are identical.0 force omissions; source hashes
+unchanged. Total29/29 ordinary MML and29/29 compiled MGS pairs now identical.
+Previous28 output pairs reused, only the new pair converted. No implementation
+or README edits. Duration, commands, logs, pass dumps and output hashes retained
+in the existing audit directory; no broad private regression or listening run.
