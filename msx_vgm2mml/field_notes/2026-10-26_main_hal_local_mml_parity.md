@@ -38,3 +38,17 @@ be conflated, and both versions' omission details must be checked even when MML
 matches. Here the nonzero omission was a real shared force-policy result, not
 a new regression. Public handoff records the audit; generated/private material
 stays untracked. Commit this note separately; do not push the private repository.
+
+## FMPAC rhythm supplement
+
+The user requested additional FMPAC coverage because the previous MSLND selection
+does not exercise rhythm. Added opll/vgmrips.net/FMPAC, all5 inputs, using the
+same mainab58c3e/implementation9da7011 snapshots and export-like settings.
+FMPAC01/02/04/05 have native rhythm key-on edges;03 has none. Both generated MML
+versions select rhythm mode1 and have active rhythm track f for the four rhythm
+inputs, and mode0 for03. All5 MML pairs and all5 compiled MGS pairs byte-identical;
+5/5 compile on both;0 force omissions; input hashes unchanged. Total parity now
+28/28 MML and28/28 MGS. Previous23 output pairs reused with verified hashes; no
+implementation or README changes. Source/MML rhythm evidence is preserved in
+fmpac_source_rhythm.json beside the expanded audit reports. This checks selected
+output compatibility and rhythm presence, not hardware or source-score accuracy.
