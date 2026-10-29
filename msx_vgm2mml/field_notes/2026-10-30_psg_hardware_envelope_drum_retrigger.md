@@ -35,3 +35,13 @@ This is bounded behavior verification, not full SALAMD/native audio equality.
 User explicitly requested prompt code checkpoint due3%quota and owns full
 SALAMD regeneration/listening. No full local conversion or broad suite run.
 No claim of complete multi-channel shared-HW-envelope phase reconstruction.
+
+
+## User regression in progress
+
+User is regenerating SALAMD after the fix, initially without --score-guided-loops,
+and plans an additional run with score guidance enabled. No result/listening
+confirmation has been reported yet. The HW-envelope continuation fix is in both
+normal and score-guided production renderers; the switch is not required to
+activate it. Do not start a duplicate local regression or claim either user run
+has passed. Implementation public commit5ac70e4; initial private record4c6be77.
