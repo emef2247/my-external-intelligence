@@ -27,6 +27,13 @@ So the limit is not in the MGS format or in MGSEXC's output; it lives
 in the classic playback path (MGSEL 3.01v loading/playback at least).
 Spec-level driver support is not ecosystem support.
 
+Follow-up with a second player (same machine): MultiPlay-X V1.13 plays
+the 18,560-byte file that MGSEL breaks, and plays a ~20 KB file, but
+silently refuses ~21 KB and larger files (no error, no response). Each
+player appears to have its own size ceiling: MGSEL 16,384 bytes,
+MultiPlay-X somewhere between ~20 KB and ~21 KB (0x5000 = 20,480 is
+the likely exact cap; exact byte counts not yet measured).
+
 ## What to do next time
 
 - Keep MGSC the default compiler (done in v2.1.1); MGSEXC stays opt-in
